@@ -9,6 +9,15 @@ body {
     margin: 2rem 4rem;
 }
 
+h1 {
+    color: orangered;
+}
+
+h2 {
+    text-align: center;
+    color: orangered;
+}
+
 /* header */
 
 header {
@@ -34,10 +43,35 @@ img {
 /* main content */
 
 
+.skills-container,
 .experience-item {
     padding: 1rem;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     margin-bottom: 1rem;;
+}
+
+/* Skills section styles */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.skills-group h3 {
+    text-align: center;
+}
+
+.skills-group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-group ul li {
+    text-align: center;
 }
