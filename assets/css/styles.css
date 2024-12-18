@@ -10,6 +10,13 @@ body {
 header {
     background-color: white;
     margin: 2rem 4rem;
+    display: flex; 
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    margin-right: 20px;
 }
 
 .lead-text {
